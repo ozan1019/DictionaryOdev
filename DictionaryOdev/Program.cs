@@ -6,7 +6,14 @@ namespace DictionaryOdev
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyDictionary<int, string> sehirler = new MyDictionary<int, string>();
+            sehirler.Add(34, "İstanbul");
+            sehirler.Add(16, "Bursa");
+            sehirler.Add(06, "Ankara");
+            sehirler.Add(10, "Balıkesir");
+            sehirler.Add(67, "Zonguldak");
+
+            
         }
     }
 }
